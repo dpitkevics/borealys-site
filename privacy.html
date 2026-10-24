@@ -28,7 +28,7 @@
 <p>These requests contain coordinates only, no name, email or account. Space weather data from NOAA is fetched without any location. Your last location, rounded to about 1 km, is saved on your phone so alerts can check your area in the background. It never leaves your phone except as part of the weather and map requests above.</p>
 
 <h3>Alerts</h3>
-<p>Alerts are calculated on your phone in the background and shown as local notifications. No push server receives your location.</p>
+<p>If you turn on alerts (Borealys Pro), the app sends our alert server a push token for your phone, your location rounded to about 10 km, your drive range, the names and rounded positions of tonight's spots near you, your language and time zone, and Apple's signed record of your Pro purchase so the server can confirm it. The server checks the sky every 10 minutes and sends a push notification through Apple when the aurora is likely visible. It runs on Amazon Web Services in the EU (London region). Nothing on the server identifies you by name or account. Turning alerts off deletes your entry.</p>
 
 <h3>Purchases</h3>
 <p>Borealys Pro and the Trip Pass are sold through Apple. Apple handles payment, and we never see your payment details. The app checks your purchase on your phone with Apple's StoreKit.</p>
@@ -40,7 +40,7 @@
 <p>Saved spots, your drive range and other settings are stored only on your phone.</p>
 
 <h2>How long data is kept</h2>
-<p>Everything stored by the app stays on your phone until you delete the app.</p>
+<p>Everything stored by the app stays on your phone until you delete the app. The alert server keeps your entry while alerts are on and Pro is active, and deletes it automatically one day after Pro ends, or right away when you turn alerts off.</p>
 
 <h2>Your rights</h2>
 <p>Because Borealys has no accounts and stores your data only on your phone, deleting the app removes it. You can switch off location and notifications at any time in the iPhone Settings app. If you have questions, write to <a href="mailto:info@caliverse.app">info@caliverse.app</a>. You can also complain to the Norwegian Data Protection Authority (Datatilsynet).</p>
@@ -69,7 +69,7 @@
 <p>Forespørslene inneholder bare koordinater, ikke navn, e-post eller konto. Romvær fra NOAA hentes uten posisjon. Siste posisjon, avrundet til omtrent 1 km, lagres på telefonen så varsler kan sjekke området ditt i bakgrunnen. Den forlater aldri telefonen utenom vær- og kartforespørslene over.</p>
 
 <h3>Varsler</h3>
-<p>Varsler beregnes på telefonen i bakgrunnen og vises som lokale varslinger. Ingen server mottar posisjonen din.</p>
+<p>Hvis du slår på varsler (Borealys Pro), sender appen varslingsserveren vår en push-nøkkel for telefonen din, posisjonen din avrundet til omtrent 10 km, kjøreavstanden din, navn og avrundet plassering for kveldens steder i nærheten, språk og tidssone, og Apples signerte kvittering for Pro-kjøpet slik at serveren kan bekrefte det. Serveren sjekker himmelen hvert tiende minutt og sender en push-varsling via Apple når nordlyset sannsynligvis er synlig. Den kjører hos Amazon Web Services i EU (London-regionen). Ingenting på serveren identifiserer deg med navn eller konto. Når du slår av varsler, slettes oppføringen din.</p>
 
 <h3>Kjøp</h3>
 <p>Borealys Pro og Reisepass selges gjennom Apple. Apple håndterer betalingen, og vi ser aldri betalingsopplysningene dine. Appen sjekker kjøpet ditt på telefonen med Apples StoreKit.</p>
@@ -81,7 +81,7 @@
 <p>Lagrede steder, kjøreavstand og andre innstillinger lagres bare på telefonen.</p>
 
 <h2>Hvor lenge data lagres</h2>
-<p>Alt appen lagrer blir på telefonen til du sletter appen.</p>
+<p>Alt appen lagrer blir på telefonen til du sletter appen. Varslingsserveren beholder oppføringen din mens varsler er på og Pro er aktiv, og sletter den automatisk én dag etter at Pro utløper, eller med en gang du slår av varsler.</p>
 
 <h2>Dine rettigheter</h2>
 <p>Siden Borealys ikke har kontoer og bare lagrer data på telefonen, fjerner du dem ved å slette appen. Du kan slå av posisjon og varslinger når som helst i Innstillinger-appen. Har du spørsmål, skriv til <a href="mailto:info@caliverse.app">info@caliverse.app</a>. Du kan også klage til Datatilsynet.</p>
